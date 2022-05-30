@@ -13,7 +13,7 @@
 body {
   font-family: 'Diplomata', cursif;
   color: #444444;
-  background-color: rgba(255, 255, 255, 0.33);
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -310,7 +310,7 @@ strong {
 }
 #hero:before {
   content: "";
-  background: rgba(12, 12, 12, 0.5);
+  background: rgba(10, 10, 12, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -488,7 +488,7 @@ section {
 .about .content p {
   margin-bottom: 0;
   color: #009961;
-  margin-left: 100px;
+  margin-left: 50px;
   font-weight: bold;
   font-size: 18px;
 }
@@ -848,30 +848,32 @@ section {
 .contact .info .email, .contact .info .phone {
   margin-top: 40px;
 }
-.contact .php-email-form {
+.contact .email-form {
   width: 100%;
   background: #fff;
 }
-.contact .php-email-form .form-group {
+.contact .email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .email-form input, .contact .email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
   background-color: #ffffff;
+  box-shadow: 0px 5px 90px 0px rgba(21, 22, 22, 0.1);
 }
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .email-form input:focus, .contact .email-form textarea:focus {
   border-color: #000099;
 }
-.contact .php-email-form input {
+.contact .email-form input {
   height: 44px;
+  box-sizing: border-box;
 }
-.contact .php-email-form textarea {
+.contact .email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type=submit] {
+.contact .email-form button[type=submit] {
   background: #000099;
   border: 0;
   padding: 10px 30px;
@@ -879,7 +881,7 @@ section {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type=submit]:hover {
+.contact .email-form button[type=submit]:hover {
   background: #00b371;
 }
 @-webkit-keyframes animate-loading {
@@ -900,53 +902,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-.breadcrumbs {
-  padding: 15px 0;
-  background: #f9f9f9;
-  min-height: 40px;
-  margin-top: 72px;
-}
-@media (max-width: 992px) {
-  .breadcrumbs {
-    margin-top: 63px;
-  }
-}
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 500;
-}
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0 0 10px 0;
-  margin: 0;
-  font-size: 14px;
-}
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #424242;
-  content: "/";
-}
-
-/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #5b5b5b;
+  background-color: #696666;
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
   padding: 30px 0;
 }
 #footer h3 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   color: #fff;
   position: relative;
@@ -955,7 +921,7 @@ section {
   margin: 0 0 15px 0;
 }
 #footer p {
-  font-size: 18;
+  font-size: 30px;
   font-style: italic;
   padding: 0;
   margin: 0 0 40px 0;
@@ -964,29 +930,28 @@ section {
   margin: 0 0 40px 0;
 }
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 60px;
   display: inline-block;
-  background: #000099;
-  color: #fff;
+  color: #000099;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 20px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
+  width: 50px;
+  height: 50px;
   transition: 0.3s;
 }
 #footer .social-links a:hover {
-  background: #00b371;
   color: #fff;
   text-decoration: none;
 }
 #footer .copyright {
   margin: 0 0 5px 0;
+  font-size: 25px;
 }
 #footer .credits {
-  font-size: 13px;
+  font-size: 25px;
 }
 #footer .credits a {
   color: #000099;

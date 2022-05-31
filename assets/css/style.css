@@ -7,11 +7,17 @@
 @import url('https://fonts.googleapis.com/css2? family= Diplomata & display=swap');
 @font-face {
     font-family: 'Diplomata', cursif ;
-    src: url(assets/font/Diplomata-Regular.ttf);
+    src: url(./assets/font/Diplomata-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+@font-face {
+  font-family: 'Merriweather', serif;
+  src: url(./assets/font/Merriweather/);
 }
 
 body {
   font-family: 'Diplomata', cursif;
+  font-family: 'Merriweather', serif;
   color: #444444;
   background-color: rgb(255, 255, 255);
 }
@@ -322,14 +328,14 @@ strong {
   position: relative;
   text-align: center;
 }
-#hero h1 {
+#hero h2 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
 }
-#hero h2 {
+#hero h3 {
   color: #eee;
   margin-bottom: 40px;
   font-size: 24px;
@@ -707,6 +713,10 @@ section {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #fff;
+}
+.counts strong {
+  font-size: 30px;
+
 }
 @media (min-width: 1200px) {
   .counts {

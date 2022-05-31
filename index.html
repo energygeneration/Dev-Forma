@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -14,17 +14,17 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- My CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
@@ -62,8 +62,8 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8">
-          <h1><strong>DevForma</strong> - Ecole professionnel en Développement Informatique</h1>
-          <h2>Nous sommes un centre de formation spécialisée dans le renforcement de capacité numérique...</h2>
+          <h2><strong>DevForma</strong> - Ecole professionnel en Développement Informatique</h2>
+          <h3>Nous sommes un centre de formation spécialisée dans le renforcement de capacité numérique...</h3>
           <a href="https://www.youtube.com/watch?v=YENof7_5PQY" class="glightbox play-btn mb-4"></a>
         </div>
       </div>
@@ -209,7 +209,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <div class="clients">
       <div class="container">
 
         <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
@@ -241,7 +241,7 @@
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </div><!-- End Clients Section -->
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
@@ -271,7 +271,7 @@
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="95" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Taux de réussite</p>
+            <p>Taux de réussite (en <strong>%</strong>) </p>
           </div>
 
         </div>
@@ -297,9 +297,7 @@
               <ul>
                 <li>Compte gratuit</li>
                 <li>Cours gratuit</li>
-                <br>
-                <br>
-                <br>
+                <li class="na">Pas de cours</li>
                 <li class="na">Pas de suivi</li>
                 <li class="na">Pas de Diplome</li>
               </ul>
@@ -318,8 +316,6 @@
                 <li>Compte gratuit</li>
                 <li>Cours gratuit</li>
                 <li>Suivi quotidien</li>
-                <br>
-                <br>
                 <li><strong>Diplome & Attestation <br> D'état</strong></li>
               </ul>
               <div class="btn-wrap">
@@ -387,13 +383,13 @@
             </div>
           </div>
           <div class="col-lg-7 mt-5 mt-lg-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2822063941376!2d1.0948831155687628!3d6.226473928270424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10215bef9d55dfdb%3A0xf14488e0a8c02ab0!2sROCH%20Technologie!5e0!3m2!1sfr!2stg!4v1652200759265!5m2!1sfr!2stg" width="100%" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2822063941376!2d1.0948831155687628!3d6.226473928270424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10215bef9d55dfdb%3A0xf14488e0a8c02ab0!2sROCH%20Technologie!5e0!3m2!1sfr!2stg!4v1652200759265!5m2!1sfr!2stg" width="100" height="270" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
         <br>
         <br>
         <div class="form">
-          <form action="forms" method="post" role="form" class="email-form">
+          <form action="forms" method="post" class="email-form">
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Nom" required>

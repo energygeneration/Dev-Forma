@@ -126,14 +126,13 @@ strong {
   background: rgba(253, 252, 252, 0.9);
 }
 #header .logo {
+  background-image: url(/Dev-Forma/assets/img/logo1.png);
   font-size: 28px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: bold;
   letter-spacing: 0.5px;
-
-  background-image: url(/assets/img/logo1.png);
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 100px;
@@ -733,7 +732,6 @@ section {
 .pricing .box {
   padding: 40px 20px;
   text-align: center;
-  border-radius: 8px;
   position: relative;
   overflow: hidden;
   background: #fefefe;
@@ -829,7 +827,9 @@ section {
   border-radius: 50px;
 }
 
-
+.pricing strong {
+  font-size: 25px;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

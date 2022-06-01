@@ -16,7 +16,6 @@
 }
 
 body {
-  font-family: 'Diplomata', cursif;
   font-family: 'Merriweather', serif;
   color: #444444;
   background-color: rgb(255, 255, 255);
@@ -49,7 +48,7 @@ strong {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #000099;
 }
 
 #preloader:before {
@@ -61,8 +60,8 @@ strong {
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   -webkit-animation: animate-preloader 1s linear infinite;
   animation: animate-preloader 1s linear infinite;
 }
@@ -106,8 +105,8 @@ strong {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #009961;
-  color: #fff;
+  background: #0f0f0f;
+  color: #000099;
 }
 .back-to-top.active {
   visibility: visible;
@@ -120,7 +119,7 @@ strong {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: rgba(253, 252, 252, 0.9);
@@ -162,12 +161,12 @@ strong {
   border-radius: 50px;
   padding: 8px 25px 9px 25px;
   white-space: nowrap;
-  transition: 0.3s;
+  transition: 3s;
   font-size: 14px;
   display: inline-block;
 }
 .get-started-btn:hover {
-  background: #00b371;
+  background: #ffffff;
   color: black;
 }
 @media (max-width: 992px) {
@@ -412,6 +411,9 @@ strong {
   }
 }
 @media (max-width: 768px) {
+  #hero {
+    background-image: url(../img/hero-bg2.jpeg);
+  }
   #hero h2 {
     font-size: 28px;
     line-height: 36px;
@@ -536,18 +538,6 @@ section {
 .services .icon-box img {
   width: 90%;
   height: 30vh;
-}
-.services .icon-box .icon {
-  width: 64px;
-  height: 64px;
-  background: #000099;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
-  color: #fff;
 }
 .services .icon-box h4 {
   font-weight: 700;

@@ -159,19 +159,4 @@
     });
   }
 
-  /**
-  *count percent
-   */
-  let timeToCount, maxPercent;
-
-  if (element.class == 'percent100') {
-    timeToCount = 10;
-    maxPercent = 100;
-  }
-
-  if (element.id == 'percent75') {
-    timeToCount = 5;
-    maxPercent = 75;
-  }
-
 })()
